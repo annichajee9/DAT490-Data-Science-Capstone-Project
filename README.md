@@ -1,43 +1,27 @@
-# DAT490-Data-Science-Capstone-Project
-This is a group project which I contributed with my peer at ASU. We conduct the data science capstone on 'Feed Grain Consumption Trends in Worldwide' for 7.5 weeks. 
-🔑 Key Keywords Found
-- Grain price volatility depends on geography, year and product type
+# DAT490 Feed Crop Prediction Project
+**Project Name**: Feed Grain Consumption Analysis
+Collaborator: Alexandra Barletta Chacon & Annicha Jeerasawat
+- Importance of Feed Grain Pricing
+Feed grains which is including barley, corn, oats, and sorghum—are fundamental to agriculture worldwide. Their pricing influences farm profits, food security, and supply chain stability. As global markets fluctuate, understanding these trends becomes increasingly vital for farmers, policymakers, and researchers alike.
 
-- Climate change affects agricultural production and developing economies
+- Motivation & Background
+There're three key aspects drive our analysis: agricultural sustainability, market volatility, and supply chain disruptions. These factors directly impact economies, food production, and trade policies, making them crucial areas of study.
 
-- Trends in animal feed demand increase, but production may decrease in the future
+- Methodologies Used
+To conduct this analysis, we relied on data from the USDA and the Maddison Database. Our process involved several steps:
+1. Data Collection & Cleaning — This included handling missing values, standardizing units, and ensuring statistical accuracy.
+2. Exploratory Data Analysis — We used correlation matrices and variance calculations to identify trends.
+3. Feature Engineering — Historical intervals were categorized to improve predictions.
 
-- Impacts from global economic and policy factors such as import and export tariffs
+Next, we implemented machine learning models, including Ridge Regression, Random Forest, and LSTM Neural Networks. These models help forecast pricing trends by analyzing past data.
 
-🛠 Tools used in the study
-- Data source from USDA to check for anomalies and classify data
+- Machine Learning & Optimization
+To refine our model accuracy, hyperparameter tuning techniques were applied—such as Random Search via Keras Tuner and Principal Component Analysis (PCA) for dimensionality reduction. Adam Optimizer helped improve performance, ensuring our predictions remained robust.
 
-- Descriptive statistics and correlation analysis to examine factors affecting prices and production volumes
+- Consumption & Price Trends
+Mapping feed grain consumption trends by region allows us to see the varied demand patterns. Additionally, individual commodity pricing trends—such as corn versus sorghum—show fluctuations influenced by external economic conditions, trade policies, and climate factors.
 
-- Using Tableau and Python in Jupyter Notebook to analyze animal feed trends
-
-- Using Logistic Regression and LSTM Neural Network to predict product demand
-
-- Random Forest Algorithm to identify factors influencing grain prices
-
-🚧 Problems encountered and solutions
-- Price data are diverse and asymmetric, cleaning and normalization are required
-
-- Non-normality of year data, Logarithmic Transformation is used to make it more uniformly distributed
-
-- Limitations of the prediction model, Fine-tuning Hyperparameters is used to increase accuracy
-
-- Some models do not predict trends well. Use Ridge Regression and Polynomial Components.
-
-🔮 Future applications
-- This model can be used to forecast trends in crops in each region.
-
-- Help the government plan agriculture and import crops more accurately.
-
-- Develop the integration of weather data and satellite images to increase the accuracy of the analysis.
-
-- Promote the use of alternative animal feeds such as insect and algae proteins.
-
-- Improve the model to reduce the impact of climate change on agricultural product prices.
-
-In conclusion, this research can be developed to reduce the impact on farmers and the animal feed industry, and provide policymakers with useful information for decision-making.
+- Conclusion & Final Takeaways
+  - Proper preprocessing significantly enhances forecasting accuracy.
+  - Macroeconomic factors—such as inflation and trade regulations—still dominate price movement.
+  - Advanced predictive models like LSTM are valuable but require continuous optimization.
